@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 class="top" id="top"></h2>
+        <img src="profile.jpg" alt="profile photo"/>
+    </header>
+    <div id="time">time</div>
+    <div id="papa">
+        <div class="main" id="main">
+            <h3 class="que" id="que">Questions</h3>
+            <ul>
+                <li><input class="ans" name="text" id="a" type="radio"/><label id="a-text" for="a">a</label></li>
+                <li><input class="ans" name="text" id="b" type="radio"/><label id="b-text" for="b">b</label></li>
+                <li><input class="ans" name="text" id="c" type="radio"/><label id="c-text" for="c">c</label></li>
+                <li><input class="ans" name="text" id="d" type="radio"/><label id="d-text" for="d">d</label></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button id="previousbtn">Previous</button>
+            <button id="nextbtn">Next</button>    
+        </div>
+        <div class="startdiv">
+            <button id="startbtn">Start Quiz</button>
+        </div>
+
+    </div>  
+    <footer>
+        <p>@ 2022</p>
+        <h4>All Right reserved</h4>
+    </footer>
+</body>
+</html>

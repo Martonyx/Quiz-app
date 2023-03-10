@@ -1,0 +1,131 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 3rem;
+    display: flex;
+    background-color: rgb(170, 135, 202);
+    justify-content: space-between;
+    padding: 1rem;
+    text-shadow: 3px 3px #b34cad;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.top {
+    display: inline;
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    border: 0.3 solid white;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 0;
+}
+
+footer h4 {
+    margin-top: 0;
+}
+
+.main {
+    background-color: antiquewhite;
+    overflow: hidden;
+    padding: 0;
+    width: 30rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+ul li {
+    padding: 0.2rem;
+    list-style: none;
+}
+
+ul {
+    padding: 0.5rem;
+}
+
+label {
+    cursor: pointer;
+}
+
+.que {
+    text-align: center;
+}
+
+#time {
+    position: fixed;
+    top: 5.5rem;
+    right: 1rem;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    width: 5rem;
+    cursor: pointer;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+button:focus {
+    background-color: wheat;
+}
+
+.startdiv {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startdiv button {
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.startb.active {
+    opacity: 0;
+}
+
+.startdiv.active {
+    opacity: 0;
+}
